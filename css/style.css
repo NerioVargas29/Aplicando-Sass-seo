@@ -1,0 +1,101 @@
+#proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0; }
+  #proyectos .lenguaje {
+    width: 500px;
+    padding: 10px; }
+  #proyectos .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5px;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center; }
+    #proyectos .container .tecnicas {
+      width: 100%;
+      margin: 5px;
+      padding: 2px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #082032;
+  width: 100%; }
+  body ul li a {
+    background: #1e5128;
+    color: black;
+    padding: 10px 30px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px 5px 15px 40px;
+    transition: 1s;
+    border: 2px solid black;
+    box-shadow: #082032 5px 5px 5px; }
+  body a {
+    text-decoration: none; }
+  body .menu-container {
+    width: 100%;
+    height: auto; }
+    body .menu-container .container-logo {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center; }
+    body .menu-container .barra-navegacion {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: end;
+      justify-items: center;
+      background-color: #1e5128; }
+      body .menu-container .barra-navegacion .lista-navegacion {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: end;
+        padding: 5px;
+        margin: 5px; }
+  body .contenedor-principal {
+    width: 100vw;
+    display: flex;
+    justify-content: center; }
+    body .contenedor-principal .contenedor-carrusel {
+      width: 60%;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: center;
+      justify-content: center; }
+  body .parrafo-principal {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+  body .sub-navegacion ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 5px;
+    margin: 5px; }
+  body .iconos-sociales {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline; }

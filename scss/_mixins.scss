@@ -1,0 +1,14 @@
+
+
+
+@mixin borders {
+   border-radius:$valor;
+   -webkit-border-radius:$valor;
+   -moz-border-radius:$valor;
+   -ms-border-radius:$valor;
+   -o-border-radius:$valor;
+}
+
+.tecnicas{
+  @include borders(5% 5% 5% 5%)
+}
